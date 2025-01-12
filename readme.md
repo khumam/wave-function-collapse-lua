@@ -21,8 +21,18 @@ Now, look at the red numbers. These numbers represent the rule connections betwe
 
 The rules are defined in a table representing the top, right, bottom, and left directions. You can see the full configuration for each asset.
 
+## Output
+Using sample config and dimension 30:
+![Output Image](./docs/result1.png)
+
+Using sample config and dimension 10:
+![Output Image](./docs/result2.png)
+
+Using cozyfarm config and dimension 10:
+![Output Image](./docs/result3.png)
+
 ## Advantages
-Since I am learning this algorithm, it may have bugs. The known bug is a blank tile because the total options are 0. I know it should have backtracking propagation to fix that issue, but I have tried to implement the feature.
+Since I am learning this algorithm, it may have bugs. The known bug is a blank tile because the total options are 0. I know it should have backtracking propagation to fix that issue, but I have not yet implemented the feature. The safest dimension is 10, which equals 100 tiles.
 
 For now, I have commented out the backtracking process.
 

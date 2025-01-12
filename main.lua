@@ -1,5 +1,5 @@
 WFC = require('libraries.wfc.wfc')
-CONFIG = require('assets.cozyfarm.config2')
+CONFIG = require('assets.sample.config')
 DIMENSION = 30
 SIZE = love.graphics.getWidth() / DIMENSION
 
