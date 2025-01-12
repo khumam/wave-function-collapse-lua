@@ -1,0 +1,34 @@
+{
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "Lua.diagnostics.globals": [
+    "love",
+    "position",
+    "wave",
+    "initial_position",
+    "collapsed",
+    "image",
+    "scale",
+    "initial_tile",
+    "initial_image",
+    "initial_rules",
+    "initial_scale",
+    "next_tile",
+    "next_tile_position",
+    "collapsed_wave_rules",
+    "next_wave",
+    "target_position",
+    "new_options",
+    "target_rules",
+    "available_options",
+    "next_wave_id",
+    "available_waves",
+    "target_wave",
+    "total_data_removed"
+],
+"cSpell.words": [
+    "cozyfarm",
+    "deepcopy"
+]
+}
